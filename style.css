@@ -1,18 +1,7 @@
 :root {
     --color-primary: #f3976c;
     --color-secondary: rgb(41, 41, 41);
-}
-
-.lien-page {
-    font-size: 20px!important;
-    font-weight: 700!important;
-}
-
-.Name {
-    font-weight: 800;
-    letter-spacing: 1px;
-    color: white!important;
-    
+    --color-3: rgb(56, 56, 56);
 }
 
 body {
@@ -379,35 +368,7 @@ a:hover {
     z-index: 2;
 }
 
-aside {
-    font-size: 20px;
-    font-weight: 100;
-    font-style: italic;
-    color: #444444;
-    line-height: 23px;
-    width: 54%;
-}
 
-aside p{
-    font-size: 20px;
-    font-style: normal;
-    color: #444444;
-}
-
-.size-60 {
-    width: 60%;
-}
-
-.size-45 {
-    width: 45%;
-}
-
-.j__center {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-}
 
 @media (min-width: 768px) {
     .site-navigation {
@@ -1088,4 +1049,59 @@ h4 {
     .bloc-mob-center-text {
         text-align: center;
     }
+}
+
+.lien-page {
+    font-size: 20px!important;
+    font-weight: 700!important;
+}
+
+.Name {
+    font-weight: 800;
+    letter-spacing: 1px;
+    color: white!important;
+    
+}
+
+aside {
+    font-size: 20px;
+    font-weight: 100;
+    font-style: italic;
+    color: #444444;
+    line-height: 23px;
+    width: 54%;
+}
+
+aside p{
+    font-size: 20px;
+    font-style: normal;
+    color: #444444;
+}
+
+.size-60 {
+    width: 60%;
+}
+
+.size-45 {
+    width: 45%;
+}
+
+.j__center {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.color-41 {
+    color: var(--color-secondary)!important;
+    font-weight: 600;
+}
+
+li > a {
+    color: var(--color-secondary)!important;
+}
+
+.survol :hover {
+    color: var(--color-3)!important;
 }
