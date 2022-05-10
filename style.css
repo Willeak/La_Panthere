@@ -1,3 +1,20 @@
+:root {
+    --color-primary: #f3976c;
+    --color-secondary: rgb(41, 41, 41);
+}
+
+.lien-page {
+    font-size: 20px!important;
+    font-weight: 700!important;
+}
+
+.Name {
+    font-weight: 800;
+    letter-spacing: 1px;
+    color: white!important;
+    
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -707,7 +724,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 16px;
 }
 
 .tight-width-whitespace {
@@ -805,17 +822,19 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: var(--color-secondary)!important;
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
-    color: #FFFFFF!important;
+    background: var(--color-primary);
+    color: var(--color-secondary)!important;
+    font-weight: 800;
+    letter-spacing: 1px;
 }
 
 .btn-atomic-tangerine:hover {
     background: #c27956!important;
-    color: #FFFFFF!important;
+    color: var(--color-secondary)!important;
 }
 
 .ltc-white {
