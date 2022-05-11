@@ -1036,6 +1036,14 @@ h4 {
         width: 180px;
         height: 320px;
     }
+    .responsive-center {
+    display: flex!important;
+    align-items: center!important;
+    justify-content: center!important;
+    }
+    .img-responsive {
+        width: 320px;
+    }
 }
 
 @media (max-width: 400px) {
