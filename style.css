@@ -1170,3 +1170,7 @@ button:focus {
     background-color: #f7cdba;
     transition: 0.5s;
 }
+
+blockquote {
+    border-left: none;
+}
